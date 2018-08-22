@@ -5,7 +5,7 @@
 * [Project Description](#project-description)
 * [Instructions](#instructions)
 * [Build With](#build-with)
-* [How The Game Works](#How The Game Works)
+* [How The Game Works](#How-The-Game-Works)
 * [Author](#author)
 * [Project Link](#project-link)
 * [Contributing](#contributing)
