@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <main class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <div class="score-panel">
+            <div class="stars">
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            
+            <span class="moves">0</span> Move(s)
+
+            <div class="timer-container">
+                <i class="far fa-clock"></i> <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
+
+            <div class="restart">
+                <i class="reset-game fa fa-repeat"></i>
+            </div>
+        </div>
+
+        <div class="modal">
+            <div class="inner">
+                <h2>Hurray!</h2>
+                <p>You Won, A Big Big Congratulations.</p>
+                <p>In <span id="total-hours"></span> Hours, <span id="total-minutes"></span> Minutes and <span id="total-seconds"></span> Seconds</p>
+                <p>You use:
+                    <span id="total-moves"></span> moves to complete the Game!<br>
+                    Your rating is: <span id="total-rate"></span>
+                </p>
+                <p>
+                    Well done!! <i class="fas fa-award"></i>
+                </p>
+                <button class="play-again">Play Again!</button>
+            </div>
+        </div>
+
+        <ul class="deck">  <!-- Place Holder for Cards -->  
+        </ul>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
