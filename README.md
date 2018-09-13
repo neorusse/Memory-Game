@@ -73,7 +73,7 @@ Your are at liberty to fork this repo and customize it.
 
 This [Memory Game Project](https://neorusse.github.io/Memory-Game/) is released under [GNU General Public License v3.0](https://neorusse.github.io/Memory-Game/blob/master/LICENSE).
 
-## Acknowledgemant
+## Acknowledgement
 
 I gratefull to [Google](https://www.google.com/) for providing me this opportunity of learning Frontend Web Development under Scholarship. [Udacity](https://www.udacity.com/) and the course instructor have been very impactful, I appreciate you. I specially thank [Andela](https://andela.com/), the project manager of this Scholarship Program. All our Mentors, Program Assistant, Local Meetup coordinators and fellow scholars on the [Slack](https://slack.com/) Forum, you guys are equally appreciated.
 
